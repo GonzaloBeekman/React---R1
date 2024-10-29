@@ -1,14 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
-
+import React from 'react';
+import TarjetaPresentacion from './TarjetaPresentacion';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p className="App-logo">
-      Hola Mundo!!!!
-        </p>
-      </header>
+      <h1>Esta es mi Presentacion</h1>
+      <TarjetaPresentacion 
+        nombre="Gonzalo" 
+        apellido="Beekman" 
+        edad="Edad: 19"
+        estado="Estado Civil: Soltero"
+        profesion="Profesion actual: Estudiante de Informatica" 
+      />
     </div>
   );
 }

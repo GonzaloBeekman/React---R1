@@ -1,0 +1,19 @@
+/* Estilos para la tarjeta */
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Para ocupar toda la pantalla verticalmente */
+  background-color: #f0f0f0; /* Fondo opcional */
+  font-family: Arial, sans-serif;
+}
+.tarjeta {
+  border: 1px solid #f10000;
+  padding: 20px;
+  text-align: center;
+  width: 200px;
+  border-radius: 8px;
+  background-color: #bebdba;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}

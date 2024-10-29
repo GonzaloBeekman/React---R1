@@ -1,0 +1,41 @@
+.lista-de-tareas {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Para ocupar toda la pantalla verticalmente */
+  background-color: #f7f7f7;
+}
+
+.lista-de-tareas h1 {
+  margin-bottom: 20px;
+}
+
+.lista-de-tareas input {
+  padding: 10px;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.lista-de-tareas button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.lista-de-tareas ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.lista-de-tareas li {
+  cursor: pointer;
+  padding: 5px 10px;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+.lista-de-tareas li:hover {
+  color: #007bff;
+}

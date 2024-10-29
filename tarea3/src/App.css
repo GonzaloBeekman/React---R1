@@ -1,0 +1,18 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Ocupa toda la altura de la pantalla */
+  background-color: #f9f9f9;
+}
+
+.App h1 {
+  margin-bottom: 20px;
+}
+
+.App button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
